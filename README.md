@@ -110,7 +110,7 @@ var2,
 
 Then, you can run jsonnetfmt on the file to get something nicely formatted like:
 
-```
+```jsonnet
 local var0 = {
   apiVersion: 'v1',
   kind: 'ServiceAccount',
@@ -171,3 +171,4 @@ local var2 = {
 ```
 
 So the normal pipeline is typically `yaml-jsonnet-bootstrap < file.yml | jsonnetfmt - > out.jsonnet`.
+From there, you can start editing out.jsonnet to give meaningful variable names and parameterize as needed.
