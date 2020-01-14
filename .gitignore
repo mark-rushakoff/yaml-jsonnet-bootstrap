@@ -1,0 +1,5 @@
+# If you go build .
+/yaml-jsonnet-bootstrap
+
+# Not checking in vendor.
+/vendor
